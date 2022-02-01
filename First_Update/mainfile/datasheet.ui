@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1171</width>
+    <height>747</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1171</width>
+    <height>747</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="bg_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>-10</y>
+     <width>1131</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>861</width>
+     <height>721</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :qlineargradient(spread:reflect, x1:1, y1:0, x2:0, y2:1, stop:0 rgba(255, 219, 241, 255), stop:1 rgba(250, 245, 144, 255));border-radius : 20;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>1171</width>
+     <height>747</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1171</width>
+     <height>747</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :qlineargradient(spread:pad, x1:0.244, y1:0.699, x2:1, y2:0, stop:0 rgba(167, 228, 218, 255), stop:1 rgba(93, 177, 207, 255)) ;border-radius : 25;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_login">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>401</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;LOGIN&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-family:'OCR A Extended'; font-size:35pt; font-weight:600;&quot;&gt;DataSheet&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Ex_bt">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>710</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgb(102, 112, 98);
+border-radius : 10px;
+color:white}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg_3">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>0</y>
+     <width>271</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :qlineargradient(spread:pad, x1:0.244, y1:0.699, x2:1, y2:0, stop:0 rgba(167, 228, 218, 255), stop:1 rgba(93, 177, 207, 255)) ;border-radius : 25;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg_4">
+   <property name="geometry">
+    <rect>
+     <x>-260</x>
+     <y>10</y>
+     <width>471</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background : rgb(190, 210, 255); border-radius : 25;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="listdi" name="list_dimension">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>191</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="listmea" name="list_measures">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>191</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="listcol" name="list_col">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>571</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>col</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="listrow" name="list_row">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>200</y>
+     <width>571</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>row</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dimensions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Measures</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>160</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Columns</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>210</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>17</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rows</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bg_5">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>481</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :qlineargradient(spread:pad, x1:0.244, y1:0.699, x2:1, y2:0, stop:0 rgba(167, 228, 218, 255), stop:1 rgba(93, 177, 207, 255)) ;border-radius : 25;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addtable_bt">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>700</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add table</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>240</y>
+     <width>431</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :rgb(255, 229, 237) ;border-radius : 10;
+</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="chart">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>240</y>
+     <width>481</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background :rgb(255, 229, 237) ;border-radius : 10;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_bt">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>710</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>OCR A Extended</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color:rgb(102, 112, 98);
+border-radius : 10px;
+color:white}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <zorder>bg_2</zorder>
+  <zorder>bg_5</zorder>
+  <zorder>bg_3</zorder>
+  <zorder>bg_4</zorder>
+  <zorder>bg</zorder>
+  <zorder>label_login</zorder>
+  <zorder>Ex_bt</zorder>
+  <zorder>list_dimension</zorder>
+  <zorder>list_measures</zorder>
+  <zorder>list_col</zorder>
+  <zorder>list_row</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>addtable_bt</zorder>
+  <zorder>tableView</zorder>
+  <zorder>chart</zorder>
+  <zorder>back_bt</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>listrow</class>
+   <extends>QListWidget</extends>
+   <header>test10.h</header>
+  </customwidget>
+  <customwidget>
+   <class>listcol</class>
+   <extends>QListWidget</extends>
+   <header>test10.h</header>
+  </customwidget>
+  <customwidget>
+   <class>listdi</class>
+   <extends>QListWidget</extends>
+   <header>test10.h</header>
+  </customwidget>
+  <customwidget>
+   <class>listmea</class>
+   <extends>QListWidget</extends>
+   <header>test10.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
