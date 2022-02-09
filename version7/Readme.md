@@ -12,8 +12,9 @@
     - Update Create Table ( Insert Data , addtoTable , Sort data )
     - Fix Create Chart ( Date time plot )
     - Update Multiple Dimension plot 
-    - Update Create Chart (Plot Bar chart , Horizontal Bar chart , Pie chart )
+    - Update Create Chart (Plot Bar chart , Horizontal Bar chart , Pie chart ,Line Chart )
     - Update Class listWidget ( FilterPopup )
+    - Filter Data Features
     - Update ShowGraph can Seclect Graph 
     - Fix & Update Drag Drop Func Real Time 
   
