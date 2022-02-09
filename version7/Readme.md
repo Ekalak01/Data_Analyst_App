@@ -15,7 +15,7 @@
     - Update Create Chart (Plot Bar chart , Horizontal Bar chart , Pie chart ,Line Chart )
     - Update Class listWidget ( FilterPopup )
     - Filter Data Features
-    - Update ShowGraph can Seclect Graph 
+    - Update ShowGraph can Select Graph 
     - Fix & Update Drag Drop Func Real Time 
   
   
