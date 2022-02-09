@@ -7,7 +7,6 @@
     - Update Select File & Union File [ & Show table When Select ]
     - Update Remove File & Remove Union File
     - Update Sort data Can Use in xlxs & csv File
-    - Remove bt ( File & Union File ) 
 ### Data Sheet pg
     - Update Ui ( Seclect File[combobox] , Remove [addtable_bt] )
     - Update Create Table ( Insert Data , addtoTable , Sort data )
