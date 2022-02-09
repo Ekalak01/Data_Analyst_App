@@ -10,6 +10,8 @@
 ### Data Sheet pg
     - Update Ui ( Seclect File[combobox] , Remove [addtable_bt] )
     - Update Create Table ( Insert Data , addtoTable , Sort data )
+    - Fix Create Chart ( Date time plot )
+    - Update Multiple Dimension plot 
     - Update Create Chart (Plot Bar chart , Horizontal Bar chart , Pie chart )
     - Update Class listWidget ( FilterPopup )
     - Update ShowGraph can Seclect Graph 
