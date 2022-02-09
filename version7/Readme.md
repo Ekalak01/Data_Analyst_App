@@ -8,7 +8,7 @@
     - Update Remove File & Remove Union File
     - Update Sort data Can Use in xlxs & csv File
 ### Data Sheet pg
-    - Update Ui ( Seclect File[combobox] , Remove [addtable_bt] )
+    - Update Ui ( Select File[combobox] , Remove [addtable_bt] )
     - Update Create Table ( Insert Data , addtoTable , Sort data )
     - Fix Create Chart ( Date time plot )
     - Update Multiple Dimension plot 
