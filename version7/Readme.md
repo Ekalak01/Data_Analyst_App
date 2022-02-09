@@ -5,7 +5,7 @@
     - Fix Bug add Sheet & Remove sheet
     - Update Import File & Union File
     - Update Remove File & Remove Union File
-    - Update Sort data Can Use in xlse & csv File
+    - Update Sort data Can Use in xlxs & csv File
     - Remove bt ( File & Union File ) 
 ### Data Sheet pg
     - Update Ui ( Seclect File[combobox] , Remove [addtable_bt] )
