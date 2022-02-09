@@ -3,7 +3,8 @@
     - Change how applications are organized.
     - Update Ui ( Remove_file_bt , Remove_Union_bt , Uninon File )
     - Fix Bug add Sheet & Remove sheet
-    - Update Import File & Union File
+    - Update Import File 
+    - Update Select File & Union File
     - Update Remove File & Remove Union File
     - Update Sort data Can Use in xlxs & csv File
     - Remove bt ( File & Union File ) 
