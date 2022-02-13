@@ -1422,7 +1422,7 @@ class FilterPopup2(QDialog):
         self.setFixedWidth(480)
         self.setFixedHeight(517)
         loadUi("FileterPop2.ui",self)
-        
+        self.label_head.setText("<html><head/><body><p align=\"center\"><span style=\" font-family:'OCR A Extended';font-size:23pt;font-weight:600\">"+str(name)+"</span></p></body></html>")
         
         self.slider.minimumChanged.connect(self.label_minimum.setText)
         self.slider.minimumChanged.connect(self.line_minimum.setText)
