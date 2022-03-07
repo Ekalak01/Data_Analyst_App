@@ -730,22 +730,23 @@ class Datasheet(QtWidgets.QMainWindow):
                 if self.dcol ==True:
                     charts=gp.vbarplot(self.dfff,self.row,self.col)
                     self.w.updateChart(charts)
-                    self.my_layout.addWidget(self.w)
+                    self.my_layout.addWidget(self.w.show())
                 else:
                     charts=gp.hbarplot(self.dfff,self.row,self.col)
                     self.w.updateChart(charts)
-                    self.my_layout.addWidget(self.w)
+                    self.my_layout.addWidget(self.w.show())
             elif graph == 'Line chart':
                 charts=gp.lineplot(self.dfff,self.dcol,self.row,self.col)
                 self.w.updateChart(charts)
-                self.my_layout.addWidget(self.w)
+                self.my_layout.addWidget(self.w.show())
             elif graph =='Pie chart':
                 charts=gp.pieplot(self.dfff,self.dcol,self.row,self.col)
                 self.w.updateChart(charts)
-                self.my_layout.addWidget(self.w)
+                self.my_layout.addWidget(self.w.show())
+            elif graph == "None":
+                self.w.hide()
             else:
                 pass
-
         else:
             pass
 
